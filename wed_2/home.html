@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Orvex - Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+
+  <!-- CSS PRINCIPAL -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- JS DEL MEGA-MENU -->
+  <script defer src="js/menu.js"></script>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="header-inner container">
+
+      <div class="logo-box">
+        <img src="img/Adobe Express - file (12).png" alt="Logo Orvex" class="logo">
+        <span class="brand-name">Orvex</span>
+      </div>
+
+      <nav class="site-nav">
+        <a href="index.html">Inicio</a>
+        <a href="#" class="productos">Productos</a>
+        <a href="#">Nosotros</a>
+        <a href="#">Contacto</a>
+      </nav>
+
+    </div>
+  </header>
+
+  <!-- MEGA MENU -->
+  <div id="mega-menu" class="mega-menu">
+    <div class="mega-inner container">
+
+      <!-- COLUMNA 1 -->
+      <div class="mega-column">
+        <div class="mega-title">
+          <img src="img/image 3.png" alt="">
+          <h4>Calzado</h4>
+        </div>
+        <a href="#">Deportivos</a>
+        <a href="#">Casuales</a>
+        <a href="#">Running</a>
+        <a href="#">Outdoor</a>
+        <a href="#">Urbanos</a>
+      </div>
+
+      <!-- COLUMNA 2 -->
+      <div class="mega-column">
+        <div class="mega-title">
+          <img src="img/image 4.png" alt="">
+          <h4>Ropa</h4>
+        </div>
+        <a href="#">Hombre</a>
+        <a href="#">Mujer</a>
+        <a href="#">Niño</a>
+      </div>
+
+      <!-- COLUMNA 3 -->
+      <div class="mega-column">
+        <div class="mega-title">
+          <img src="img/Adobe Express - file (3) 1.png" alt="">
+          <h4>Accesorios</h4>
+        </div>
+        <a href="#">Gorras</a>
+        <a href="#">Termos</a>
+        <a href="#">Bolso Deportivo</a>
+        <a href="#">Medias técnicas</a>
+        <a href="#">Morral</a>
+      </div>
+
+      <!-- COLUMNA 4 -->
+      <div class="mega-column">
+        <div class="mega-title">
+          <img src="img/Adobe Express - file (4) 1.png" alt="">
+          <h4>Colecciones</h4>
+        </div>
+        <a href="#">Motion X</a>
+        <a href="#">Street Pulse</a>
+        <a href="#">Core Active</a>
+        <a href="#">Essentia</a>
+      </div>
+
+      <!-- IMAGEN JUGADOR -->
+      <div class="mega-player">
+        <img src="img/image 5.png" alt="">
+      </div>
+
+    </div>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner container">
+      <div class="hero-text">
+        <h1 class="hero-title">Inspira tu<br>movimiento.</h1>
+        <p class="hero-sub">Vive el estilo Orvex.</p>
+        <button class="hero-cta">VER MAS</button>
+      </div>
+
+      <div class="hero-figure">
+        <img src="img/Hero.png" alt="Deportista Orvex">
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCTOS DESTACADOS -->
+  <section class="section">
+    <div class="container">
+      <h2>PRODUCTOS DESTACADOS</h2>
+
+      <div class="products-grid">
+
+        <!-- CARD 1 -->
+        <article class="card">
+          <div class="card-bg"></div>
+          <div class="card-content">
+            <div class="fav" onclick="toggleFav(this)">♡</div>
+            <img src="img/Red.png" alt="Zapatilla Roja" class="shoe">
+            <h3>Zapatilla Roja</h3>
+            <div class="price">$79.99</div>
+            <button class="buy">Buy Now</button>
+          </div>
+        </article>
+
+        <!-- CARD 2 -->
+        <article class="card">
+          <div class="card-bg"></div>
+          <div class="card-content">
+            <div class="fav" onclick="toggleFav(this)">♡</div>
+            <img src="img/Black.png" alt="Zapatilla Negra" class="shoe">
+            <h3>Zapatilla Negra</h3>
+            <div class="price">$79.99</div>
+            <button class="buy">Buy Now</button>
+          </div>
+        </article>
+
+        <!-- CARD 3 -->
+        <article class="card">
+          <div class="card-bg"></div>
+          <div class="card-content">
+            <div class="fav" onclick="toggleFav(this)">♡</div>
+            <img src="img/image 1.png" alt="Zapatilla Orvex" class="shoe">
+            <h3>Zapatilla Orvex</h3>
+            <div class="price">$79.99</div>
+            <button class="buy">Buy Now</button>
+          </div>
+        </article>
+
+        <!-- CARD 4 -->
+        <article class="card">
+          <div class="card-bg"></div>
+          <div class="card-content">
+            <div class="fav" onclick="toggleFav(this)">♡</div>
+            <img src="img/White.png" alt="Zapatilla Blanca" class="shoe">
+            <h3>Zapatilla Blanca</h3>
+            <div class="price">$79.99</div>
+            <button class="buy">Buy Now</button>
+          </div>
+        </article>
+
+      </div>
+
+      <!-- NUESTRA FILOSOFÍA -->
+      <div class="philosophy" style="margin-top:40px;">
+        <div class="philo-item">
+          <img src="img/image 2 (1).png" alt="">
+          <span>Innovación</span>
+        </div>
+
+        <div class="philo-item">
+          <img src="img/Comodidad.png" alt="">
+          <span>Comodidad</span>
+        </div>
+
+        <div class="philo-item">
+          <img src="img/image 2 (1).png" alt="">
+          <span>Autenticidad</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 Orvex - Todos los derechos reservados</p>
+    </div>
+  </footer>
+
+  <!-- SCRIPT DEL CORAZÓN -->
+  <script>
+    function toggleFav(element) {
+      if (element.innerText === "♡") {
+        element.innerText = "♥";
+        element.classList.add("active");
+      } else {
+        element.innerText = "♡";
+        element.classList.remove("active");
+      }
+    }
+  </script>
+
+</body>
+</html>
+
